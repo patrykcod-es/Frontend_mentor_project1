@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Front end Mentor projekt 1</title>
   </head>
@@ -14,10 +17,10 @@
           alt="green drawer next to yellow couch with yellow flower, in front of white brick wall"
         />
         <article class="article">
-          <h1 class="article-header">
+          <h2 class="article-header">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
-          </h1>
+          </h2>
           <p class="article-par">
             Ever been in room and felt like something was missing? Perhaps it
             felt slightly bare and uninviting. I've got some simple tips to help
@@ -26,19 +29,31 @@
           <div class="info">
             <div class="author">
               <img
-                class="author-date"
+                class="author-img"
                 src="/img/avatar-michelle.jpg"
                 alt="photo of author"
               />
-              <p class="author-name">Michelle Appleton</p>
-              <p class="author-date">26 Jun 2020</p>
+              <div class="date">
+
+                  <p class="author-name">Michelle Appleton</p>
+                  <p class="author-date">26 Jun 2020</p>
+              </div>
             </div>
-            <img
-              id="share"
-              class="share"
-              src="/img/icon-share.svg"
-              alt="share button"
-            />
+            <div class="share-area dark">
+                <img
+                  id="share"
+                  class="share-btn"
+                  src="/img/icon-share.svg"
+                  alt="share button"
+                />
+                
+                <div id="share-pop-up" class="share">
+                    <p>share</p>
+                    <img src="/img/icon-facebook.svg" alt="">
+                    <img src="/img/icon-twitter.svg" alt="">
+                    <img src="/img/icon-pinterest.svg" alt="">
+                </div>
+            </div>
           </div>
         </article>
       </main>
